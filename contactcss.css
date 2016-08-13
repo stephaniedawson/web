@@ -1,0 +1,53 @@
+
+@font-face {
+	font-family: name;
+	src: url(name.ttf);
+}
+
+.jumbotron {
+margin-top: 40px;
+background: #000000;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
+.btn {
+    background-color: #1ABC9C;
+    border: #1ABC9C;
+}
+
+.btn:hover {
+    background-color: #2980B9;
+    border: #2980B9;
+}
+
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+.navbar-brand {
+	font-family: name;
+	letter-spacing: 7px;
+}
+
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
+
+.page-header{
+  text-align: center; 
+}
+
+

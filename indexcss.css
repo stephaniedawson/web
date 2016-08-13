@@ -1,0 +1,49 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	background: url(stephaniedawsonback.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	margin: 0 0 50px; /* bottom = footer height */
+}
+
+@font-face {
+	font-family: name;
+	src: url(name.ttf);
+}
+
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+.navbar-brand {
+	font-family: name;
+	letter-spacing: 7px;
+}
+
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
+
+
+.bg-4 { 
+    background-color: #ffffff;
+    color: #333;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: absolute;
+    padding-top: 15px;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}

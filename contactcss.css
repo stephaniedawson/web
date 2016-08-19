@@ -1,8 +1,4 @@
 
-@font-face {
-	font-family: name;
-	src: url(name.ttf);
-}
 
 .jumbotron {
 margin-top: 40px;
@@ -29,17 +25,22 @@ font-size: 24px;
     border: #2980B9;
 }
 
+@font-face {
+	font-family: name;
+	src: url(type.ttf);
+}
+
 .navbar {
-	padding-top: 10px;
-	padding-bottom: 5px;
-	margin-top: 15px;
-	font-size: 14px;
-	letter-spacing: 5px;
+  background-color: #ffffff;
+  border: 0;
+
 }
 
 .navbar-brand {
-	font-family: name;
-	letter-spacing: 7px;
+  font-family: name;
+  letter-spacing: 7px;
+  font-size: 35px;
+  color: #000000;
 }
 
 .navbar-nav li a:hover {

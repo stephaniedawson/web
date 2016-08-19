@@ -8,25 +8,28 @@ body {
 }
 
 @font-face {
-	font-family: name;
-	src: url(name.ttf);
+  font-family: name;
+  src: url(type.ttf);
 }
 
 .navbar {
-	padding-top: 10px;
-	padding-bottom: 5px;
-	margin-top: 15px;
-	font-size: 14px;
-	letter-spacing: 5px;
+  background-color: #ffffff;
+  border: 0;
 }
 
 .navbar-brand {
-	font-family: name;
-	letter-spacing: 7px;
+  font-family: name;
+  letter-spacing: 7px;
+  font-size: 35px;
+  color: #000000;
 }
 
 .navbar-nav li a:hover {
 	color: #1abc9c !important;
+}
+
+h1{
+  font-size: 25px;
 }
 
 .page-header{
@@ -114,8 +117,6 @@ opacity:0.9;
 .resume-heading .social-btns i.fa{
   margin-left:-5px;
 }
-
-
 
 @media (max-width: 992px) {
   .resume-heading .social-btn-holder{

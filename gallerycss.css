@@ -40,7 +40,7 @@ body {
 }
 
 .gal-item .box {
-	height: 240px;
+	height: 280px;
 	overflow: hidden;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 .gal-container .modal-dialogue {
-	width: 80%;
+	width: 100%;
 }
 
 .gal-container .description {
@@ -132,7 +132,7 @@ body {
 .gal-container .description h4 {
 	margin: 0px;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 300px;
 	line-height: 20px;
 }
 
@@ -158,9 +158,12 @@ body {
 	opacity: 1;
 }
 
+div.container.gal-container {
+	width: 90%;
+}
+
 @media (min-width: 768px) {
 	.gal-container .modal-dialog {
-		width: 60%;
 		margin: 50 auto;
 	}
 }

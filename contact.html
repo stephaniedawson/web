@@ -6,15 +6,15 @@
 		<meta charset="UTF-8">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="contactcss.css">
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="animate.css">
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+       <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 		<style>
 		</style>
 	</head>
 	<body>
 		
-                <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-                        <a class="navbar-brand" href="index.html">Stephanie Ann Dawson</a>
+                <a class="navbar-brand" href="index.html">Stephanie Ann Dawson</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -58,7 +58,7 @@
     <div class="row">
         <div class="col-md-8">
             <div class="well well-sm">
-                <form>
+            <form role="form" action="process.php" method="post" id="contactForm">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -94,8 +94,8 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                            Send Message</button>
+                        <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+                        <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
                     </div>
                 </div>
                 </form>
@@ -131,5 +131,7 @@
 			</p>
 		</footer>
 	</body>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
 
 </html>
